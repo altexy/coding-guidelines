@@ -239,11 +239,11 @@ patch series на ревью кода лидом проекта.
     Утилита `pk-git-format-patch` является "надстройкой" над стандартным format-patch,
     и форматирует заголовок письма как рекомендовано в данном документе.
 
-###Отправляем на ревью
+###Отправляем на ревью:
 
     git send-email --to 'logiceditor-com-review@googlegroups.com' *.patch
 
-Для находящихся на probation - посылать в probation:
+Для новичков — посылать в probation:
 
     git send-email --to 'logiceditor-com-probation@googlegroups.com' *.patch
 
